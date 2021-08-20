@@ -1,6 +1,6 @@
 # Task2: Create an automated test for rest endpoints.
 
-**!Attention!** This code don't run. It contains abstract tests. It can be considered an example.
+**!Attention!** This code doesn't run. It contains abstract tests. It can be considered an example.
 
 **Instructions**
 
