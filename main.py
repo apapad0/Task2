@@ -53,5 +53,7 @@ def test_api():
 if __name__ == "__main__":
     test_expected_behaviour()
     test_api()
-    if len(fails) != 0:
+    if len(fails) == 0:
+        print('SUCCESS')
+    else:
         print('Failed tests: ', fails)
