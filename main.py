@@ -38,7 +38,7 @@ def test_api():
             print('Test', testAPI1.index(test) + 4, ': FAIL')
             fails.append(test)
     for test in testAPI2:
-        if testAPI2[0]:         # test7git : if the json format is correct it continues, if not it doesn't check its content
+        if testAPI2[0]():         # test7git : if the json format is correct it continues, if not it doesn't check its content
             if test():
                 print('Test', testAPI2.index(test) + 7, ': PASS')
             else:
